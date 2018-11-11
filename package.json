@@ -2,6 +2,10 @@
   "name": "node-in-docker",
   "version": "0.1.0",
   "description": "A simple test of running Node.js in a Docker container",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onebytegone/node-in-docker.git"
+  },
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
