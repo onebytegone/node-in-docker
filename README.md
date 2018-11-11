@@ -18,6 +18,7 @@ git clone git@github.com:onebytegone/node-in-docker.git
 cd node-in-docker
 docker build -t "$(whoami)/node-web-app" .
 docker run -p 40000:8080 -d "$(whoami)/node-web-app"
+curl -D - 'http://localhost:40000'
 ```
 
 [installing-docker]: https://docs.docker.com/install/
